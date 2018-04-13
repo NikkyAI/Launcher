@@ -1,4 +1,4 @@
-/*
+/* CotM Launcher - A fork of
  * SK's Minecraft Launcher
  * Copyright (C) 2010-2014 Albert Pham <http://www.sk89q.com> and contributors
  * Please see LICENSE.txt for license information.
@@ -24,8 +24,8 @@ public class Configuration {
     private boolean offlineEnabled = false;
     private String jvmPath;
     private String jvmArgs;
-    private int minMemory = 1024;
-    private int maxMemory = 0; // Updated in Launcher
+    private int minMemory = 4096;
+    private int maxMemory = 4096; // Updated in Launcher
     private int permGen = 256;
     private int windowWidth = 854;
     private int widowHeight = 480;
