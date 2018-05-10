@@ -1,4 +1,4 @@
-/* CotM Launcher - A fork of
+/*
  * SK's Minecraft Launcher
  * Copyright (C) 2010-2014 Albert Pham <http://www.sk89q.com> and contributors
  * Please see LICENSE.txt for license information.
@@ -25,10 +25,10 @@ public class Configuration {
     private String jvmPath;
     private String jvmArgs;
     private int minMemory = 4096;
-    private int maxMemory = 4096; // Updated in Launcher
+    private int maxMemory = 0; // Updated in Launcher
     private int permGen = 256;
-    private int windowWidth = 854;
-    private int widowHeight = 480;
+    private int windowWidth = 1280;
+    private int widowHeight = 720;
     private boolean proxyEnabled = false;
     private String proxyHost = "localhost";
     private int proxyPort = 8080;
